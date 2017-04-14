@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="calstyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class='cal'>
+        <h1>Calculator</h1>
+
+        <div class='buttonarea'>
+            <div class='showarea'><span class='result'></span></div>
+            <div class="row1">
+                <button class='button percent'>&percnt;</button>
+                <button class='button sqrt'> &radic;</button>
+                <button class='button square'><span id='ex'>X</span>
+      <span class='ex2'>2</span></button>
+                <button class='button limitb'><span class='limit'>1/</span><span class='lim'>x</span></button>
+
+            </div>
+            <div class='row2'>
+                <button class='button CE'>CE</button>
+                <button class='button C'>C</button>
+                <button class='button back'>&#9003</button>
+                <button class='button operator' value='/'>&divide;</button>
+
+
+            </div>
+            <div class='row3'>
+                <button class='numbers button' value='7'>7</button>
+                <button class='numbers button' value='8'>8</button>
+                <button class='numbers button' value='9'>9</button>
+                <button class='button operator' value='*'>X</button>
+            </div>
+
+            <div class='row4'>
+                <button class='numbers button' value='4'>4</button>
+                <button class='numbers button' value='5'>5</button>
+                <button class='numbers button' value='6'>6</button>
+                <button class='button operator' value='-'>-</button>
+            </div>
+            <div class='row5'>
+                <button class='numbers button' value='1'>1</button>
+                <button class='numbers button' value='2'>2</button>
+                <button class='numbers button' value='3'>3</button>
+                <button class='button operator' value='+'>+</button>
+            </div>
+            <div class='row6'>
+                <button class='button negate'>+/-</button>
+                <button class='numbers button' value='0'>0</button>
+                <button class='button dot' value='.'>.</button>
+                <button class='button equal'>=</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="calscript.js">
+    </script>
+</body>
+
+</html>
